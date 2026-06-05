@@ -33,6 +33,5 @@ public class Servidor {
         numero.close();
         puertoCliente.close();
         serverSocket.close();
-
     }
 }

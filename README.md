@@ -21,3 +21,34 @@ url: https://developer.mozilla.org/es/docs/Web/HTTP
 
 ![imghtml1.png](imagenes%2Fimghtml1.png)
 
+
+
+EJERCICIO 3
+---
+
+
+Primero ejecuetamos el servidor, este se queda esperando y luego corremos el cliente, aqui nos pide el numero
+y el servidor nos devuelve el cuadrado del número.
+
+Número: 2
+
+**Cliente** 
+
+![img.png](imagenes/cliente.png)
+
+**Servidor**
+
+![img.png](imagenes/Servidor.png)
+
+Número: 485
+
+**Cliente**
+
+![img.png](imagenes/cliente2.png)
+
+**Servidor**
+
+![img.png](imagenes/servidor2.png)
+
+---
+
