@@ -54,6 +54,7 @@ Número: 485
 ## EJERCICIO 4
 
 ---
+![img.png](imagenes/funciones.png)
 
 ## EJERCICIO 5
 
@@ -78,10 +79,25 @@ EXPLORADOR WEB
 TERMINAL 
 ![img.png](imagenes/terminalIndex.png)
 
-EJERCICIO 6
+## EJERCICIO 6
+
+---
 
 ![hora.png](imagenes/hora.png)
 
 Cuando apago el servidor 
 
 ![servidorApagado.png](imagenes/servidorApagado.png)
+
+## EJERCICIO 7
+
+---
+
+Instancia persona 1
+
+![img.png](imagenes/Instania1L.png)
+
+instancia persona 2
+
+![img.png](imagenes/instanciaA.png)
+
