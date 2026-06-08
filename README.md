@@ -51,4 +51,29 @@ Número: 485
 ![img.png](imagenes/servidor2.png)
 
 ---
+## EJERCICIO 4
 
+---
+
+## EJERCICIO 5
+
+---
+
+http://localhost:6565/servidorWeb.png
+
+EXPLORADOR WEB
+
+![img.png](imagenes/urlImagenServidorWeb.png)
+
+TERMINAL
+
+![img.png](imagenes/TerminalServidorWeb.png)
+
+http://localhost:6565/index.html
+
+EXPLORADOR WEB
+
+![img.png](imagenes/exploradorServidorrIndex.png)
+
+TERMINAL 
+![img.png](imagenes/terminalIndex.png)
