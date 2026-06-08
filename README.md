@@ -77,3 +77,11 @@ EXPLORADOR WEB
 
 TERMINAL 
 ![img.png](imagenes/terminalIndex.png)
+
+EJERCICIO 6
+
+![hora.png](imagenes/hora.png)
+
+Cuando apago el servidor 
+
+![servidorApagado.png](imagenes/servidorApagado.png)
