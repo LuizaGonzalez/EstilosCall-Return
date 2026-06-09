@@ -302,7 +302,7 @@ número entero y el servidor responde con su cuadrado.
   el número recibido, calcula el cuadrado y lo devuelve como texto.
 - **Cliente:** crea un **Socket** hacia **127.0.0.1:35000**, lee un número desde
   la consola, lo envía y muestra la respuesta.
-- 
+
 ### Cómo ejecutar
 1. Compilar el proyecto.
 2. Lanzar primero el servidor; quedará en espera.
