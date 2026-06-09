@@ -162,8 +162,11 @@ The server listens on port 6565. For each GET request: it reads the resource pat
 Use the UDP protocol to implement a client that queries the current time from a server every 5 seconds. If the server does not respond, the client retains the last received time and automatically resynchronizes once the server becomes available again.
 
 ### What is done?
-- **Server (**DatagramTimeServer**):** listens on port 4445. Upon receiving any datagram, it responds with the current time as a **String**.
-- **Client (**DatagramTimeClient**):** sends an empty datagram every 5 seconds and displays the time from the response. It uses **setSoTimeout** on the socket to avoid blocking indefinitely if the server is down.
+What is done?
+
+- **Server (ServidorHora):** listens on port 9696. Upon receiving any datagram, it responds with the current time as a String using new Date().toString().
+- **Client (ClienteHora):** sends a datagram in a continuous loop and displays the time from the response. It uses setSoTimeout(2000) on the socket so that if the server does not reply within 2 seconds, a SocketTimeoutException is caught and the last known time is shown instead
+
 ### Screenshots
 
 ![hora.png](imagenes/hora.png)
@@ -388,8 +391,11 @@ responde **404 Not Found**.
 Usar el protocolo UDP para implementar un cliente que consulta la hora actual a un servidor cada 5 segundos. Si el servidor no responde, el cliente conserva la última hora recibida y se resincroniza automáticamente en cuanto el servidor vuelve a estar disponible.
 
 ### ¿Qué se hace?
-- **Servidor (**DatagramTimeServer**):** escucha en el puerto 4445. Al recibir cualquier datagrama, responde con la hora actual en formato **String**.
-- **Cliente (**DatagramTimeClient**):** envía un datagrama vacío cada 5 segundos y muestra la hora de la respuesta. Usa un **setSoTimeout** en el socket para no bloquearse indefinidamente si el servidor está caído.
+
+¿Qué se hace?
+
+- **Servidor (ServidorHora):** escucha en el puerto 9696. Al recibir cualquier datagrama, responde con la hora actual en forma de cadena utilizando new Date().toString().
+- **Cliente (ClienteHora):** envía un datagrama en un bucle continuo y muestra la hora de la respuesta. Utiliza setSoTimeout(2000) en el socket para que, si el servidor no responde en 2 segundos, se detecte una SocketTimeoutException y se muestre en su lugar la última hora conocida.
 
 ### Evidencia fotográfica
 
